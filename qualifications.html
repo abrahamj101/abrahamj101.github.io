@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualifications</title>
+    <link rel="stylesheet" type="text/css" href="style.css" id="mainStyleSheet">
+</head>
+<body>
+
+<!-- Navigation toggle button for mobile view -->
+<button id="navbarToggle">Menu</button>
+<div class="navbar">
+    <!-- Button to switch stylesheets for different visual themes -->
+    <button id="switchStyle">Toggle Styles</button> 
+
+    <!-- Navigation links -->
+    <a href="index.html">Landing Page</a>
+    <a href="technical-portfolio.html">Technical Portfolio</a>
+    <a href="service.html">Service</a>
+    <a href="ai-page.html">AI Generated Page</a>
+</div>
+
+<!-- Page header with the title -->
+<div class="header">
+    <h1>Qualifications</h1>
+</div>
+
+<!-- Main content area -->
+<div class="content" style="display: flex; align-items: flex-start; justify-content: center; gap: 20px;">
+    <!-- Resume container with a clickable image link to download the resume -->
+    <div class="resume-container" >
+        <a href="RESUME.pdf" target="_blank" download="Joshua_Abraham_Resume">
+            <!-- Update the image path to ensure it's loaded from a specific folder structure -->
+            <img src="pics/resume_pic.png" alt="Joshua Abraham's Resume" style="max-width: 100%; height: auto;">
+            <p style="text-align:center;">Click on the picture to download my resume as PDF!</p>
+        </a>
+    </div>
+    <!-- Qualifications details -->
+    <div class="qualifications" style="flex: 1;">
+        <h2>Technical Skills:</h2>
+        <h3>Strong programming skills especially in C++ and Python due to course work and projects. Also Java, R, HTML/CSS.</h3>
+        <h3>Arduino and Raspberry Pi.</h3>
+        <h3>PCB Design (<a href="https://www.altium.com/altium-designer/" target="_blank">Altium Designer</a>), circuit analysis</h3>
+        
+        <h2>Technical Areas of Interests:</h2>
+        <h3>Embedded System software (<a href="https://www.techtarget.com/iotagenda/definition/embedded-system" target="_blank">Learn more</a>) - because it's the intersection between software and hardware.</h3>
+        <h3>Cybersecurity (<a href="https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html" target="_blank">Learn more</a>) - because finding and fixing insecurities before hackers sounds fun.</h3>
+        <h3>Artificial Intelligence (<a href="https://www.ibm.com/topics/artificial-intelligence" target="_blank">Learn more</a>) - new and growing field with many applications to almost every sector.</h3>
+    </div>
+</div>
+
+<script src="toggle.js"></script>
+</body>
+</html>
